@@ -1,0 +1,3 @@
+{"members": "CREATE TABLE IF NOT EXISTS members (customer_id TEXT PRIMARY KEY, customer_name TEXT, join_date TEXT); ",
+"menu": "CREATE TABLE IF NOT EXISTS menu (product_id INTEGER PRIMARY KEY, product_name TEXT, price INTEGER);  ",
+"sales": "CREATE TABLE IF NOT EXISTS sales (customer_id TEXT, order_date TEXT, product_id INTEGER, FOREIGN KEY (customer_id) REFERENCES members (customer_id), FOREIGN KEY (product_id) REFERENCES menu (product_id)) ; "}
