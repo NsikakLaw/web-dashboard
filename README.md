@@ -18,4 +18,4 @@ the ranking of their purchases based on the order date
     * `pip install -r requirements.txt`
     * `python main.py`
     * We needed to create the information in the tables first before dashboard run will be successful
-* The UI should be available on http://127.0.0.1:8050/
+* The UI should be available on http://127.0.0.1:5000/
